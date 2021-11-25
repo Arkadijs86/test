@@ -1,0 +1,437 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+    font-family: Arial;
+    font-style: normal;
+  }
+  nav{
+  position: absolute;
+  width: 680px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+  
+  }
+  
+  
+  nav ul li{
+    display: inline-block; 
+    padding-right: 30px;
+    
+  }
+  
+  nav ul li a{
+    font-family: Arial;
+    font-style: normal; 
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    color: #6A707B;
+    
+  }
+  
+  
+  
+  div.logo{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+    width: 25px;
+    height: 40px;
+  }
+  div.links{
+    position: absolute;
+    left: 331px;
+    top: 105px;
+    height: 16px;
+   }
+  div.pine{
+    position: absolute;
+    left: 140px;
+    top: 120px;
+    font-family: Arial;
+    font-style: normal; 
+    font-weight: bold;
+    text-decoration: none;
+    height: 26px;
+  }
+  
+  div.pine a{
+    color: #131821;
+  }
+  
+  .main {
+    background-image: url("img/image_summer.png");
+    position: absolute;
+    width: 1620px;
+    height: 1080px;
+    left: 680px;
+    top: 0px;
+    padding: 0px;
+    border: 0px;
+   }
+  
+   .header{
+    position: absolute;
+    left: -540px;
+    top: 270px;
+    z-index: 2;
+    width: 700px;
+    height: 350px;
+    background-color: none;
+   
+    
+   }
+  
+   .header h1{
+     font-size: 32px;
+     width: 399px;
+     height: 44px;
+     
+   }
+   .header h2{
+     position: relative;
+     top: -10px;
+     left: 1px;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Georgia;
+    font-weight: normal;
+    color: #6A707B;
+    width: 400px;
+    height: 56px;
+  }
+  
+ 
+  .icon{
+    border-style: solid;
+    border-top-width: 1px;
+    border-color: #E3E3E4;
+    position: absolute;
+    bottom: -40px;
+    left: 18px;
+    background-color:none;
+    height: 122px;
+    width: 400px;  
+  }
+  .social{
+    margin: auto;
+    width: 75%;
+    
+    padding: 11px;
+  }
+  .social li{
+  display: inline;
+  padding-right: 19px;
+  }
+  
+  .icons1{
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background: url("img/ic_facebook.png") no-repeat 0 0 ;
+    background-position: center;
+    background-color: white;
+  }
+  .icons1:hover{
+    
+    background: url("img/ic_facebook (1).png") no-repeat 0 0 ;
+    background-position: center;
+    background-color: #4267B2;
+  }
+  .icons1:focus{
+    outline-color: #2F4A80;
+    background: url("img/ic_facebook (1).png") no-repeat 0 0 ;
+    background-position: center;
+    background-color: #2F4A80;
+  }
+  .icons2{
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background: url("img/ic instagram.png") no-repeat 0 0;
+    background-position: center;
+    background-color: white;
+  }
+  .icons2:hover{
+    
+    background: url("img/ic instagram1.png") no-repeat 0 0 ;
+    background-position: center;
+    background-color: #C13584;
+  }
+  .icons2:focus{
+    outline-color: #8F2762;
+    background: url("img/ic instagram1.png") no-repeat 0 0 ;
+    background-position: center;
+    background-color: #8F2762;
+  }
+  .icons3{
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background: url("img/ic_twitter.png") no-repeat 0 0;
+    background-position: center;
+    background-color: white;
+  }
+  .icons3:hover{
+    
+    background: url("img/ic_twitter1.png") no-repeat 0 0 ;
+    background-position: center;
+    background-color: #1DA1F2;
+  }
+  .icons3:focus{
+    outline-color: #177FBF;
+    background: url("img/ic_twitter1.png") no-repeat 0 0 ;
+    background-position: center;
+    background-color: #177FBF;
+  }
+  .icons4{
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background: url("img/ic youtube.png") no-repeat 0 0;
+    background-position: center;
+    background-color: white;
+  }
+  .icons4:hover{
+    
+    background: url("img/ic youtube1.png") no-repeat 0 0 ;
+    background-position: center;
+    background-color: #FF0000;
+  }
+  .icons4:focus{
+    outline-color: #CC0000;
+    background: url("img/ic youtube1.png") no-repeat 0 0 ;
+    background-position: center;
+    background-color: #CC0000;
+  }
+  .check{
+   padding-top: 76px;
+   
+   
+  }
+  
+  #box{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: -5px;
+  }
+  
+  #texts{
+    position: relative;
+    height: 28px;
+    
+    top: -10px;
+    display: block;
+    padding: 5px;
+    color: #CC0000;
+    
+  }
+  .terms{
+    position: relative;
+    left: 40px;
+    top: -25px;
+    
+  }
+ 
+ 
+@media screen and (max-width: 600px) {
+    nav{
+        
+        width: 100%;
+        height: 66px;
+        left: 0px;
+        top: 0px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+        
+        }
+        nav ul li{
+          display: inline-flex;
+         
+          padding-right: 25px;
+          
+        }
+          
+          nav ul li a{
+            font-family: Arial;
+            font-style: normal; 
+            font-weight: 400;
+            text-decoration: none;
+            font-size: 14px;
+            color: #6A707B;
+            
+          }
+          
+          
+          
+          div.logo{
+            position: absolute;
+            left: 20px;
+            top: 14px;
+            z-index: 1;
+            width: 25px;
+            height: 40px;
+          }
+          div.links{
+            position: absolute;
+            left: 28%;
+            top: 14px;
+            height: 24px;
+           }
+          div.pine{
+            display: none;
+          }
+          
+          div.pine a{
+            color: #131821;
+          }
+          .main {
+            background-image: url("img/image_summer.png");
+            position: absolute;
+            width: 1119px;
+            height: 746px;
+            left: -281px;
+            top: 66px;
+            padding: 0px;
+            border: 0px;
+            z-index: -2;
+           }
+           .header{
+            
+            left: 301px;
+            top: 188px;
+            
+            z-index: 2;
+            width: 90vw;
+            height: 371px;
+            background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+            padding-left: 20px;
+            
+           }
+          
+           .header h1{
+            position: relative;
+            top: 40px;
+            font-size: 24px;
+            width: 295px;
+            height: 34px;
+           }
+           .header h2{
+            position: relative;
+            top: 40px;
+            font-size: 14px;
+            width: 295px;
+            height: 52px;
+            line-height: 26px;
+            font-weight: normal;
+          }
+          .text{
+            position: relative;
+            background-color: aqua;
+            left: 0px;
+            width: 75vw;
+            height: 60px;
+            border-left-style: solid;
+            border-left-width: 4px;
+            border-left-color:  #4066A5;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #E3E3E4;
+            border-top-style: solid;
+            border-top-width: 1px;
+            border-top-color: #E3E3E4;
+            background: #FFFFFF;
+          }
+          
+          
+            
+          
+          .icon{
+            border-style: solid;
+            border-top-width: 1px;
+            display: flexbox;
+            border-color: #E3E3E4;
+            position: absolute;
+            bottom: -10px;
+            background-color:none;
+            height: 100px;
+            width: 80vw;  
+            left: 20px;
+          }
+          .social{
+            margin: auto;
+            width: 75%;
+            
+            padding: 0px;
+          }
+          .social li{
+          display: inline;
+          padding-right: 2px;
+          }
+          
+          .icons1{
+            width: 46px;
+            height: 46px;
+            border-radius: 100%;
+            background: url("img/ic_facebook.png") no-repeat 0 0;
+            background-position: center;
+            background-color: white;
+          }
+          .icons2{
+            width: 46px;
+            height: 46px;
+            border-radius: 100%;
+            background: url("img/ic instagram.png") no-repeat 0 0;
+            background-position: center;
+            background-color: white;
+          }
+          .icons3{
+            width: 46px;
+            height: 46px;
+            border-radius: 100%;
+            background: url("img/ic_twitter.png") no-repeat 0 0;
+            background-position: center;
+            background-color: white;
+          }
+          .icons4{
+            width: 46px;
+            height: 46px;
+            border-radius: 100%;
+            background: url("img/ic youtube.png") no-repeat 0 0;
+            background-position: center;
+            background-color: white;
+          }
+          .check{
+           padding-top: 29px;
+          }
+          
+          .text{
+            padding-left: 15px;
+            color: #6A707B;
+            font-size: 16px;
+            font-style: arial;
+          }
+          .form{
+              position: absolute;
+              width: 100%;
+              
+          }
+          .success{
+              position: relative;
+              top: 15px;
+              left: 5px;
+          }
+  
+}
+  
+  
+  
+  
+  
+  
+  
